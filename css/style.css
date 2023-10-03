@@ -22,7 +22,7 @@ body {
 }
 
 header {
-	background:#ff0000;
+	background:#E31B13;
 	width:100%;
 	padding:20px;
 
@@ -61,7 +61,7 @@ header nav {
 }
 
 header nav a {
-	background:#660900;
+	background:#65140D;
 	color:#fff;
 	text-align: center;
 	text-decoration: none;
@@ -77,7 +77,7 @@ header nav a:hover {
 }
 
 .main {
-	background:#fff;
+	background:#000000;
 	padding:20px;
 
 	flex:1 1 70%;
@@ -154,54 +154,4 @@ footer .social a {
 	text-decoration: none;
 	padding:10px;
 	display: inline-block;
-}
-
-@media screen and (max-width: 800px) {
-	.contenedor {
-		flex-direction:column;
-	}
-
-	header {
-		flex-direction:column;
-		padding:0;
-	}
-
-	header .logo {
-		margin:20px 0;
-	}
-
-	header nav {
-		width: 100%;
-	}
-
-	aside {
-		flex-direction:row;
-		flex:0;
-	}
-
-	aside .widget {
-		flex-grow:1;
-	}
-}
-
-@media screen and (max-width: 600px) {
-	aside {
-		flex-direction:column;
-	}
-
-	footer {
-		justify-content:space-around;
-	}
-}
-
-@keyframes fanimado{
-    0%{
-        background-position: 0% 50%;
-    }
-    50%{
-        background-position: 100% 50%;
-    }
-    100%{
-        background-position: 0% 50%;
-    }
 }
